@@ -1,0 +1,25 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Generated build output and local logs
+**/bin/
+**/obj/
+frontend/build/
+**/App_Data/Logs/
+**/App_Data/Exams/
+frontend/.dart_tool/
+frontend/.flutter-plugins-dependencies
+frontend/android/local.properties
+
+# Editor and operating-system files
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
